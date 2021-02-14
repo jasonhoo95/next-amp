@@ -12,8 +12,11 @@ class MyDocument extends Document {
 			<Html>
 				<Head>
 					<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" />
-					<title>NEXTJS AMP EXAMPLE</title>
+					<title>NEXT JS AMP EXAMPLE</title>
 					<meta name="keywords" content="NEXT JS AMP EXAMPLE"></meta>
+					<meta property="og:url" content="https://popmach.com"></meta>
+					<meta property="og:type" content="website"></meta>
+					<meta property="og:title" content="Popmach"></meta>
 				</Head>
 				<body>
 					<Sidebar />
